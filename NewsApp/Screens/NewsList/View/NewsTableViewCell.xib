@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="rKe-rh-chB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="182"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rKe-rh-chB" id="ttH-MR-ci2">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="QSA-Iv-kbv">
+                        <rect key="frame" x="20" y="20" width="350" height="20.333333333333329"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="BNL-L9-svg">
+                                <rect key="frame" x="0.0" y="0.0" width="350" height="20.333333333333332"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Authors name," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blH-Ah-Nck">
+                                        <rect key="frame" x="0.0" y="0.0" width="292.66666666666669" height="20.333333333333332"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20.329999999999998" id="N5b-pY-GZR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LM0-M3-U40">
+                                        <rect key="frame" x="308.66666666666669" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="blH-Ah-Nck" firstAttribute="top" secondItem="BNL-L9-svg" secondAttribute="top" id="207-C9-k2d"/>
+                                    <constraint firstItem="blH-Ah-Nck" firstAttribute="leading" secondItem="BNL-L9-svg" secondAttribute="leading" id="IPN-gW-uZ2"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b72-8U-OZf">
+                        <rect key="frame" x="20.000000000000004" y="40.333333333333336" width="41.333333333333343" height="20.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QSA-Iv-kbv" firstAttribute="top" secondItem="ttH-MR-ci2" secondAttribute="top" constant="20" id="Fce-xG-hAS"/>
+                    <constraint firstItem="b72-8U-OZf" firstAttribute="leading" secondItem="ttH-MR-ci2" secondAttribute="leadingMargin" id="IyY-Ws-qHu"/>
+                    <constraint firstAttribute="trailing" secondItem="QSA-Iv-kbv" secondAttribute="trailing" constant="20" id="aui-3Z-aGl"/>
+                    <constraint firstItem="QSA-Iv-kbv" firstAttribute="leading" secondItem="ttH-MR-ci2" secondAttribute="leading" constant="20" id="cgf-r9-yVP"/>
+                    <constraint firstItem="b72-8U-OZf" firstAttribute="top" secondItem="QSA-Iv-kbv" secondAttribute="bottom" id="nbf-ZL-chI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="244.61538461538461" y="87.440758293838854"/>
+        </tableViewCell>
+    </objects>
+</document>
